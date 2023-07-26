@@ -56,7 +56,7 @@ header > nav > a {
 }
 
 header > nav > a::after {
-    content: '   |';
+    content: '  |';
 }
 
 a.a-especial::after {
@@ -64,10 +64,12 @@ a.a-especial::after {
 }
 
 img.fundo-tech-blend {
-    width: 100%;
-    height: 150px;
+    width: 100vw;
     margin-top: 60px;
-    box-shadow: inset 2px 2px 5px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
 }
 
-
+article.parte-inicial > h1 {
+    font-family: var(--fonte-destaque);
+    color:  var(--cor2);
+}
