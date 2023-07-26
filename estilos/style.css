@@ -129,6 +129,10 @@ article.parte-inicial > p {
     padding: 20px 30px 0px 30px;
 }
 
+.qualidades-pagina-inicial {
+    display: none;
+}
+
 .parte-demonstrações {
     background-color: var(--cor2);
     height: 100vh;

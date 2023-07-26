@@ -1,5 +1,147 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 800px) {
+
+    header {
+        height: 70px;
+    }
+
+    header > nav {
+        padding-top: 15px;
+    }
+
+    header > nav > a {
+        font-family: var(--fonte-navegação-pc);
+        padding: 0px 25px 0px 25px;
+        font-size: 1.8em;
+    }
+
+    header > nav > p {
+        font-size: 2em;
+    }
+
+    img.fundo-tech-blend {
+        margin-top: 70px;
+    }
+
+    article.parte-inicial > h1 {
+        padding-top: 120px;
+        padding-bottom: 30px;
+        font-size: 2.5em;
+    }
+
+    article.parte-inicial > p {
+        padding: 30px 220px 0px 220px;
+    }
+
+    .qualidades-nossas-1, .qualidades-nossas-2 {
+        display: none;
+    }
+
+    .qualidades-pagina-inicial {
+        display: flex;
+        font-family: var(--fonte-padrao);
+        color: var(--cor2);
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .segurança, .qualidade, .inovação, .atendimento {
+        font-size: 1.7em;
+        padding: 60px 60px 0px 60px;
+    }
+    
+    .parte-demonstrações {
+        height: 840px;
+    }
+
+    .parte-demonstrações > h1 {
+        font-family: var(--fonte-destaque);
+        color: white;
+        text-align: center;
+        padding-top: 90px;
+        font-size: 3.5em;
+    }
+
+    .parte-demonstrações > .powerpoints {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+    
+    .parte-demonstrações img {
+        width: 300px;
+        padding: 60px 150px 30px 150px;
+    
+    }
+    
+    .link-download-ppt > a {
+        display: inline;
+        font-family: var(--fonte-padrao);
+        background-color: var(--cor3);
+        font-size: 1.7em;
+        padding: 14px;
+    }
+    
+    .link-download-ppt > a:hover {
+        background-color: var(--cor1);
+        border: 1px solid var(--cor0);
+    }
+
+    .parte-demonstrações > p {
+        padding: 40px 50px 0px 50px;
+        font-size: 1.1em;
+    }
+
+    .parte-sobre-nos > h1 {
+        padding: 100px 40px 10px 40px;
+        font-size: 3.5em;
+    }
+
+    .parte-sobre-nos > h2 {
+        color: var(--cor1);
+        font-size: 2.2em;
+        padding: 20px 5px 5px 300px; 
+    }
+    
+    .parte-sobre-nos > h3 {
+        padding: 20px 20px 20px 300px;
+        font-size: 1.4em;
+    }
+    
+    .parte-sobre-nos > p {
+        padding: 20px 300px 5px 300px;
+        text-indent: 20px;
+        font-size: 1.3em;
+    }
+
+    article.parte-duvidas > h1 {
+        font-size: 3.5em;
+        text-align: center;
+        padding: 100px 50px 40px 50px;
+    }
+
+    .parte-duvidas > .perguntas-frequentes > h2 {
+        font-size: 1.6em;
+        padding: 10px 250px 10px 250px;
+    }
+    
+    .parte-duvidas > .perguntas-frequentes > .contatos > p {
+        font-size: 1.2em;
+        padding: 0px 250px 20px 250px;
+        
+    }
+
+    .parte-duvidas > .perguntas-frequentes > p {
+        font-size: 1.4em;
+        padding: 10px 250px 30px 250px;
+    }
+
+    .parte-duvidas > .perguntas-frequentes img {
+        width: 30px;
+        padding-right: 5px;
+    }
 
 }
