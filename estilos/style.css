@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: 'mono';
-    src: url(../fontes/MonoSpatial.ttf);
-    font-weight: bold;
+    src: url(../fontes/MonoSpatial.ttf) format('truetype');
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'sono';
     src: url(../fontes/Sono-Regular.ttf) format('truetype');
-    font-weight: bold;
+    font-weight: normal;
 }
 
 @font-face {
@@ -32,6 +32,7 @@
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'lemon', cursive; 
     --fonte-navegação: Arial, Helvetica, sans-serif;
+    --fonte-navegação-pc: 'sono', Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -63,7 +64,7 @@ header > nav > a {
     color: var(--cor2);
     text-decoration: none;
     padding: 0px 2px 0px 2px;
-    font-size: 0.8em;
+    font-size: .9em;
 }
 
 header > nav > p {
@@ -250,4 +251,3 @@ article.parte-duvidas > h1 {
     font-size: 1.2em;
     padding: 10px 20px 30px 20px;
 }
-
