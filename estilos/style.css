@@ -52,7 +52,7 @@ header > nav > a {
     color: var(--cor2);
     text-decoration: none;
     padding: 0px 4px 0px 4px;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 header > nav > a::after {
@@ -69,10 +69,14 @@ img.fundo-tech-blend {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
 }
 
+article.parte-inicial {
+    height: 100vh;
+}
+
 article.parte-inicial > h1 {
     font-family: var(--fonte-destaque);
     color:  var(--cor2);
-    padding: 80px 35px 15px 35px    ;
+    padding: 80px 20px 20px 20px    ;
     text-align: center;
     font-size: 2em;
 }
@@ -81,5 +85,36 @@ article.parte-inicial > div#linha-reta {
     background-color: var(--cor2);
     margin: auto;
     height: 2px;
-    width: 200px;
+    width: 315px;
+}
+
+article.parte-inicial > p {
+    font-family: var(--fonte-padrao);
+    padding: 20px 35px 0px 35px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.qualidades-nossas-1 {
+    display: flex;
+    font-family: var(--fonte-padrao);
+    color: var(--cor2);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.qualidades-nossas-2 {
+    display: flex;
+    font-family: var(--fonte-padrao);
+    color: var(--cor2);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.segurança, .qualidade, .inovação, .atendimento {
+    font-size: 1.5em;
+    padding: 20px;
 }
