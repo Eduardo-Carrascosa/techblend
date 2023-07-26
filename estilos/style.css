@@ -79,6 +79,7 @@ article.parte-inicial > h1 {
     padding: 80px 20px 20px 20px    ;
     text-align: center;
     font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
 }
 
 article.parte-inicial > div#linha-reta {
@@ -116,5 +117,21 @@ article.parte-inicial > p {
 
 .segurança, .qualidade, .inovação, .atendimento {
     font-size: 1.2em;
-    padding: 20px;
+    padding: 20px 30px 0px 30px;
+}
+
+.parte-demonstrações {
+    background-color: var(--cor2);
+    height: 100vh;
+    margin-top: 100px;
+    box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.452);
+}
+
+.parte-demonstrações > h1 {
+    font-family: var(--fonte-destaque);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.9em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486);
 }
