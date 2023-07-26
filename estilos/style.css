@@ -2,12 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100;200;300;400 & display=swap');
 
-
+@font-face {
+    font-family: 'mono';
+    src: url(../fontes/MonoSpatial.ttf);
+    font-weight: bold;
+}
 
 @font-face {
     font-family: 'sono';
     src: url(../fontes/Sono-Regular.ttf) format('truetype');
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
@@ -25,7 +29,7 @@
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'lemon', cursive; 
-    --fonte-navegação: 'sono', Arial, Verdana, Helvetica, sans-serif;
+    --fonte-navegação: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -43,7 +47,7 @@ header {
 
 header > nav {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 21px;
 
 }
 
@@ -51,12 +55,13 @@ header > nav > a {
     font-family: var(--fonte-navegação);
     color: var(--cor2);
     text-decoration: none;
-    padding: 0px 13px 0px 13px;
+    padding: 0px 5px 0px 5px;
     font-size: 1em;
 }
 
-a.a-especial::after {
-    content: none;
+header > nav > p {
+    display: inline;
+    color: var(--cor2);
 }
 
 img.fundo-tech-blend {
@@ -141,8 +146,8 @@ article.parte-inicial > p {
 }
 
 .parte-demonstrações img {
-    width: 190px;
-    padding: 70px 25px 30px 25px;
+    width: 160px;
+    padding: 70px 20px 10px 20px;
 
 }
 
@@ -150,8 +155,8 @@ article.parte-inicial > p {
     display: inline;
     font-family: var(--fonte-padrao);
     background-color: var(--cor3);
-    font-size: 1.1em;
-    padding: 13px 10px 15px 13px;
+    font-size: .8em;
+    padding: 8px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
