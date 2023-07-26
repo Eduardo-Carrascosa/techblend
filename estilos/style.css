@@ -172,3 +172,34 @@ article.parte-inicial > p {
     padding: 60px 50px 0px 50px;
     text-align: center;
 }
+
+.parte-sobre-nos {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fonte-padrao);
+}
+
+.parte-sobre-nos > h1 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding: 40px;
+    color: var(--cor2);
+    font-size: 2em;
+}
+
+.parte-sobre-nos > h2 {
+    color: var(--cor1);
+    font-size: 2em;
+    padding: 10px;
+}
+
+.parte-sobre-nos > h3 {
+    padding: 20px;
+    font-size: 1em;
+}
+
+.parte-sobre-nos > p {
+    padding: 20px 20px 5px 20px;
+    text-indent: 20px;
+}
+
