@@ -51,12 +51,8 @@ header > nav > a {
     font-family: var(--fonte-navegação);
     color: var(--cor2);
     text-decoration: none;
-    padding: 0px 3px 0px 3px;
-    font-size: .8em;
-}
-
-header > nav > a::after {
-    content: '  |';
+    padding: 0px 13px 0px 13px;
+    font-size: 1em;
 }
 
 a.a-especial::after {
@@ -123,6 +119,7 @@ article.parte-inicial > p {
 .parte-demonstrações {
     background-color: var(--cor2);
     height: 100vh;
+    width: 100vw;
     margin-top: 100px;
     box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.452);
 }
@@ -136,6 +133,31 @@ article.parte-inicial > p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486);
 }
 
-.parte-demonstrações > .powerpoints img {
-    width: 100px;
+.parte-demonstrações > .powerpoints {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.parte-demonstrações img {
+    width: 190px;
+    padding: 70px 25px 30px 25px;
+
+}
+
+.link-download-ppt > a {
+    display: inline;
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor3);
+    font-size: 1.1em;
+    padding: 13px 10px 15px 13px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-download-ppt > a:hover {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor0);
 }
