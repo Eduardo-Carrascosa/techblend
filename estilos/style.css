@@ -182,7 +182,7 @@ article.parte-inicial > p {
 
 .parte-sobre-nos {
     width: 100%;
-    height: 1000px;
+    height: 1050px;
     font-family: var(--fonte-padrao);
 }
 
@@ -213,7 +213,7 @@ article.parte-inicial > p {
 article.parte-duvidas {
     background-color: var(--cor2);
     width: 100%;
-    height: 100%;
+    height: 1180px;
 }
 
 article.parte-duvidas > h1 {
