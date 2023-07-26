@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@100;200;300;400 & display=swap');
+
+
+
+@font-face {
+    font-family: 'sono';
+    src: url(../fontes/Sono-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'lemon';
+    src: url(../fontes/LEMONMILK-Bold.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #DFE9F2;
+    --cor1: #118CD9;
+    --cor2: #117CD9;
+    --cor3: #1540BF;
+    --cor4: #090E73;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'lemon', cursive; 
+    --fonte-navegação: 'sono', Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(0, 110, 255);
+}
+
+header {
+    position: fixed;
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.377);
+}
+
+header > nav {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+header > nav > a {
+    font-family: var(--fonte-navegação);
+    color: var(--cor2);
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    font-size: 1.1em;
+}
+
+header > nav > a::after {
+    content: '   |';
+}
+
+a.a-especial::after {
+    content: none;
+}
+
+img.fundo-tech-blend {
+    width: 500px;
+    height: 150px;
+    margin-top: 60px;
+    box-shadow: inset 2px 2px 5px black;
+}
