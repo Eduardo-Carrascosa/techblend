@@ -255,6 +255,11 @@ article.parte-duvidas > h1 {
     text-decoration: none;
 }
 
+.parte-duvidas > .perguntas-frequentes > .contatos > p > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 .parte-duvidas > .perguntas-frequentes img {
     width: 20px;
     padding-right: 5px;
