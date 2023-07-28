@@ -83,7 +83,7 @@ img.fundo-tech-blend {
 }
 
 article.parte-inicial {
-    height: 100vh;
+    height: 100%;
 }
 
 article.parte-inicial > h1 {
@@ -139,7 +139,7 @@ article.parte-inicial > p {
 
 .parte-demonstrações {
     background-color: var(--cor2);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin-top: 130px;
     box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.452);
@@ -184,14 +184,14 @@ article.parte-inicial > p {
 
 .parte-demonstrações > p {
     color: white;
-    padding: 60px 50px 0px 50px;
+    padding: 30px 50px 20px 30px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.411);
 }
 
 .parte-sobre-nos {
     width: 100%;
-    height: 1050px;
+    height: 100%;
     font-family: var(--fonte-padrao);
 }
 
