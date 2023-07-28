@@ -250,6 +250,11 @@ article.parte-duvidas > h1 {
     
 }
 
+.parte-duvidas > .perguntas-frequentes > .contatos > p > a {
+    color: white;
+    text-decoration: none;
+}
+
 .parte-duvidas > .perguntas-frequentes img {
     width: 20px;
     padding-right: 5px;
